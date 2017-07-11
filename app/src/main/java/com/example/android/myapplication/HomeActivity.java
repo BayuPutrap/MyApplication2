@@ -17,7 +17,7 @@ public class HomeActivity extends AppCompatActivity {
 //        LayoutInflater inflater2 = (LayoutInflater) this.getSystemService(LAYOUT_INFLATER_SERVICE);
 //
 //        inflater2.inflate(R.layout.layout_tambahan, (LinearLayout) findViewById(R.id.llhome));
-//        
+//
         LinearLayout layout = (LinearLayout) findViewById(R.id.llhome);
         View view = inflater.inflate(R.layout.layout_tambahan, (LinearLayout)findViewById(R.id.llhome),false);
         layout.addView(view);
