@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDCCAA"
+    android:id="@+id/rlLayout"
+    >
+
+
+
+    <ImageView
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ivGambar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+        />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tvTeks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Teks"
+        android:textSize="40sp"
+        android:layout_toLeftOf="@id/ivGambar"
+        android:layout_alignParentBottom="true"
+
+        />
+
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tvTeks2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Secound Text"
+        android:layout_toLeftOf="@id/ivGambar"
+        android:layout_above="@id/tvTeks"
+        style="@style/styleTeks"
+
+        />
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_tittle"
+        android:layout_above="@id/ivGambar"
+        />
+</RelativeLayout>
+
+
+
