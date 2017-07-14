@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_one"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFAA">
+    <EditText
+        android:id="@+id/etFragmentSatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        />
+    <Button
+        android:id="@+id/btnFragmentSatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_tittle"
+        android:layout_below="@id/etFragmentSatu"
+        />
+
+
+</RelativeLayout>
